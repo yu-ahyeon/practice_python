@@ -13,6 +13,8 @@ def solution(answers):
         if answers[i] == c[i]:
             n += 1
     my_list = [l, m, n]
+    # [30, 20, 10]
+    # [30, 30, 20]
     my_max = max(my_list)
     answer = []
     for j in range(len(my_list)):

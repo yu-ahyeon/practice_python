@@ -37,3 +37,11 @@ print(b)
 
 a = 10000/8
 print(a)
+
+# 문자열 정렬, 내림차순 정렬
+def solution(s):
+    arranged = sorted(list(s), reverse = True)
+    my_result = "".join(arranged)
+    return my_result
+x = solution("Zbcdefg")
+print(x)
